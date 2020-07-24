@@ -1,0 +1,270 @@
+
+.introduction {
+    background-color: #e8e9ee;
+}
+
+.introduction .introduction-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.introduction .introduction-content .introduction-image {
+    width: 60%;
+    padding: 1em;
+    border-radius: 3px;
+    background: white;
+}
+
+.introduction .introduction-content .introduction-image img {
+    max-width: 100%;
+}
+
+.introduction .introduction-content .introduction-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.introduction .introduction-content .introduction-text .introduction-text-main h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.3em;
+}
+
+.introduction .introduction-content .introduction-text .introduction-text-main p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
+}
+
+
+.introduction .introduction-content .introduction-text .introduction-text-caption {
+    margin-top: 2em;
+}
+
+.introduction .introduction-content .introduction-text .introduction-text-caption p {
+    font-size: 0.6em;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.article .article-section {
+    margin-top: 3.5em;
+}
+
+.article .article-content {
+    width: 90%;
+    margin:0 auto;
+    max-width: 1000px;
+}
+
+.article .article-content .article-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.article .article-content .cite {
+    display: none;
+    padding: 0 1em;
+    font-size: 0.85em;
+    color: gray;
+}
+
+.article .article-content .try-musenet {
+    display: flex;
+}
+
+.article .samples-menu {
+    margin: 2em 0;
+    max-width: 650px;
+}
+
+.article .samples .sample {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 650px;
+    font-family: 'Roboto', sans-serif;
+    /* background: red; */
+}
+
+.article .samples .sample .sample-second-column p {
+    text-transform: uppercase;
+    color: gray;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.6em;
+    letter-spacing: 1px;
+}
+
+.article .samples .samples-double-paragraph .samples-flex-double {
+    display: flex;
+}
+
+.article .samples .sample .sample-second-column p .fa-soundcloud {
+    font-size: 1.2em;
+}
+
+
+.article .samples .double p,
+.article .try-musenet p  {
+    padding: 1em 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.article .samples .sample .sample-first-column {
+    display: flex;
+    align-items: center;
+}
+
+.article .samples .sample .sample-first-column * {
+    padding: 0.35em;
+}
+
+.article .samples  .sample button {
+    background-color: transparent;
+    border: none;
+    color: #ff4d00;
+    font-size: 1.3em;
+}
+
+.article .samples  .sample button .fa-play-circle {
+    color: #ff4d00;
+}
+
+.article .compose {
+    background: #8e8ea0;
+}
+
+.article .compose .compose-inner {
+    padding: 2em;
+    width: 100%;
+    max-width: 700px;
+    margin:0 auto;
+
+}
+
+
+
+.article .compose .compose-inner #compose-title {
+    color: white;
+    font-size: 1.5em;
+    padding: 1em 0;
+    margin-top: 3%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.article .compose .compose-inner #show-advanced-settings {
+    margin-bottom: 3em;
+    font-size: 0.7em;
+    letter-spacing: 3px;
+    font-family: 'Noto Sans', sans-serif;
+    color: lightgray;
+    text-transform: uppercase;
+}
+
+.article .compose .compose-inner #tall-button {
+    height: 15em;
+    width: 5em;
+    border-radius: 5px;
+    margin-bottom: 7%;
+    background-color: gray;
+    border: none;
+}
+
+.article .compose .compose-inner #tall-button .fa-arrow-right {
+    margin-left: -10px;
+    font-size: 2.2em;
+    color: white;
+    animation: moveRight 2s infinite;
+}
+
+.article .compose .compose-inner #tall-button:hover {
+    background-color: #b0b0b0;
+    cursor: pointer;
+}
+
+@keyframes moveRight {
+    0%,
+    100% {
+        -webkit-transform:
+        translateX(0);
+        transform: translateX(0);
+    }
+    50% {
+        -webkit-transform:
+        translateX(0.4em);
+        transform: translate(0.4em);
+    }
+
+}
+
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 720px) {  
+    .introduction .introduction-content {
+        display: flex;
+    }
+
+    .introduction .introduction-content .introduction-image {
+        width: 40%;
+    }
+    .introduction .introduction-content .introduction-text {
+        width: 60%;
+        padding: 0 2em;
+    }
+
+    .introduction .introduction-content .introduction-text .introduction-text-caption p {
+        font-size: 0.7em;
+    }
+
+    .article .article-content .article-title {
+        font-size: 2em;
+    }
+
+    
+    .article .samples .sample p {
+        font-size: 1.1em;
+    }
+
+
+
+    .article .samples .double p,
+    .article .try-musenet p  {
+        font-size: 1.1em;
+    }
+
+    
+    .article .article-content .cite {
+        display: block;
+        font-size: 0.9em;
+    }
+
+    .article .compose .compose-inner #compose-title {
+        font-size: 2em
+    }
+
+    .article .compose .compose-inner #show-advanced-settings {
+        font-size: 0.8em;
+    }
+}
+@media screen and (min-width: 960px) {
+    .introduction .introduction-content .introduction-text p{
+        font-size: 1.3em;
+    }
+
+    .introduction .introduction-content .introduction-text .introduction-text-main h1 {
+        font-size: 3em;
+    }
+}
+@media screen and (min-width: 1200px) {
+}
