@@ -1,0 +1,333 @@
+main {
+  color: white;
+  background: black;
+  width: 100vw;
+}
+
+main .starship-inner {
+  background: black;
+  width: 100vw;
+}
+
+main .starship-content {
+  width: 90%;
+  margin: 0 auto;
+  background: black;
+}
+
+main .starship-inner .starship-banner {
+  height: 400px;
+  width: 100vw;
+  font-family: 'Quicksand', sans-serif;
+  background: url('images/falcon-heavy-banner.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main .starship-inner .starship-banner p {
+  font-size: 3em;
+  width: 30%;
+  line-height: 1em;
+}
+
+main .starship-inner .starship-banner button {
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+main .starship-inner .starship-banner button:hover {
+  cursor: pointer;
+}
+
+main .starship-inner .starship-banner button img {
+  width: 100%;
+  height: 100%;
+}
+
+.starship-content-intro p,
+.starship-content-bottom-first-half .first-half-bottom-section p,
+.first-stage-subsection p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.starship-content-intro p {
+  font-size: 0.85em;
+  color: #c0c0c0;
+  line-height: 1.8em;
+}
+
+.starship-content .starship-content-top-section {
+  display: flex;
+}
+
+.starship-content .starship-content-top-section .starship-content-top-first-half {
+  /*width: 65%;*/
+  width: 100%;
+}
+
+.starship-content-top-first-half .starship-content-intro {
+  margin-top: 2em;
+}
+
+.starship-content .starship-content-top-section .starship-content-top-first-half .starship-content-intro p {
+  margin-bottom: 1em;
+}
+
+
+.starship-content .starship-content-top-section .starship-content-top-second-half {
+  /*width: 33%;*/
+  display: flex;
+  position: relative;
+  margin-left: 2%;
+  display: none;
+}
+
+.starship-content .starship-content-top-section .starship-content-top-second-half img {
+  width: auto;
+  height: 350px;
+  float: left;
+  position: absolute;
+  top:50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: none;
+}
+
+.starship-content .starship-content-top-section .starship-content-top-second-half .starship-diagram-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  top:10%;
+  font-size: 0.8em;
+}
+
+.starship-content .starship-content-top-section .starship-content-top-second-half .starship-diagram-text p {
+  width: 100%;
+  padding: 1.2em;
+  background:#21272b;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 2px;
+}
+
+.starship-content .starship-content-top-section .starship-content-top-second-half .starship-diagram-text p #highlight-blue {
+  color: blue;
+}
+
+.starship-content .starship-content-top-section .starship-content-top-first-half .starship-content-title {
+  font-family: 'Sen', sans-serif;
+  border-bottom: 1px dashed gray;
+}
+
+.starship-content-title #title {
+  padding: 0.8em 0 0.8em 0;
+  font-size: 2.5em;
+}
+
+
+main .starship-inner .starship-content .starship-content-bottom-section {
+  display: flex;
+}
+
+/*main .starship-inner .starship-content .starship-content-bottom-section .starship-bottom-section {*/
+/*  flex: 50%;*/
+/*}*/
+
+main .starship-inner .starship-content .starship-content-bottom-section .starship-bottom-section p {
+  font-size: 0.95em;
+  color: #a9a9a9;
+  line-height: 1.5em;
+  margin-top: 1.2em;
+}
+
+
+main .starship-inner .starship-content .starship-content-bottom-section .starship-bottom-section .first-half-bottom-section {
+  width: 100%;
+  margin-top: 4em;
+}
+
+main .starship-inner .starship-content .starship-content-bottom-section .starship-bottom-section .first-half-bottom-section .section-title {
+  font-size: 2em;
+  font-family: 'Sen', sans-serif;
+}
+
+main .starship-inner .starship-content .starship-content-bottom-section .starship-bottom-section .first-stage-section .first-stage-subsection h5{
+  font-family: 'Sen', sans-serif;
+  font-size: 1em;
+  margin: 2em 0 2em 0;
+}
+
+main .starship-inner .starship-content .starship-content-bottom-section .starship-bottom-section .first-stage-section .first-stage-subsection p {
+  color: #c0c0c0;
+  font-size:0.85em;
+}
+
+.starship-inner .starship-content .starship-content-bottom-section {
+  width: 100%;
+}
+
+.starship-inner .starship-content .starship-content-bottom-section .starship-content-bottom-first-half {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.starship-content-bottom-section .starship-content-bottom-second-half #falcon-heavy-model {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+.starship-inner .starship-content .table {
+  text-align: left;
+  margin: 4em 0 4em 0;
+}
+
+.starship-inner .starship-content .table th{
+  font-family: 'Sen', sans-serif;
+
+}
+
+.starship-inner .starship-content .table td {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.65em;
+  padding: 0.4em 0 0.4em 0;
+}
+
+.starship-inner .starship-content .table .alt-unit {
+  color: #767676;
+  font-size: 0.6em;
+}
+
+.starship-content-bottom-first-half {
+  position: relative;
+}
+
+.parts .engine-section {
+  position: absolute;
+  bottom:0;
+  left:0;
+  display: none;
+}
+
+.engine-section p {
+  color: #c0c0c0;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 649px) {
+  .starship-content .starship-content-top-section .starship-content-top-second-half {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 1100px) {
+  main .starship-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .starship-content-title #title {
+    font-size: 3em;
+  }
+  
+  .starship-bottom-section .first-half-bottom-section {
+    margin-top: 5em;
+  }
+  
+  .starship-content .starship-content-top-section .starship-content-top-first-half {
+    width: 67%;
+  }
+  
+  .starship-content .starship-content-top-section .starship-content-top-second-half {
+    width: 33%;
+    display: block;
+  }
+  
+  .starship-content-bottom-first-half {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .starship-content-bottom-first-half .parts {
+    width: 47.5%;
+  }
+  
+  .parts .engine-section {
+    display: block;
+    width: 250px;
+  }
+  
+  .parts .engine-section img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+  
+}
+
+
+@media only screen and (min-width: 1101px) {
+  main .starship-content {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .starship-content-bottom-section .starship-content-bottom-second-half #falcon-heavy-model {
+    display: block;
+  }
+  
+  .starship-content-title #title {
+    font-size: 3.5em;
+  }
+  
+  .starship-content .starship-content-top-section .starship-content-top-first-half .starship-content-intro {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .starship-content .starship-content-top-section .starship-content-top-first-half .starship-content-intro p {
+    width: 47.5%;
+    margin:0;
+  }
+  
+  .starship-content .starship-content-top-section .starship-content-top-first-half {
+    width: 67%;
+  }
+  
+  .starship-bottom-section .first-half-bottom-section {
+    margin-top: 6em;
+  }
+  
+  .starship-content-bottom-section .starship-content-bottom-first-half {
+    display: block;
+  }
+
+  .starship-content .starship-content-top-section .starship-content-top-second-half {
+    width: 33%;
+    display: block;
+  }
+  
+  .starship-content .starship-content-top-section .starship-content-top-second-half img {
+    display: block;
+  }
+  
+  .parts .engine-section {
+    display: block;
+  }
+
+}
