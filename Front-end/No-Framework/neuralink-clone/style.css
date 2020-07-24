@@ -1,0 +1,165 @@
+
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header, body, footer {
+    background-color: #f8f9fb;
+}
+
+
+header {
+    height: 10vh;
+}
+
+header .logo-container {
+    padding: 1em;
+    width: 6em;
+}
+
+header .logo-container img {
+    max-width: 100%;
+}
+
+main  {
+    height: 85vh;
+}
+
+main .main-inner {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1900px;
+}
+
+main .main-inner .title-container {
+    min-width: 4em;
+    font-size: calc(2em + 3vw);
+    padding: 1em 0em 1.3em 0em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+}
+
+.main-content .box {
+    display: flex;
+    flex-direction: column;
+    padding: calc(2.5em + 1vw);
+    margin-top: 2em;
+    height: 25em;
+    background-color: white;
+
+}
+
+.main-content .box-2 {
+    margin-bottom: 5em;
+}
+.main-content .box .box-title-description .box-title {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+}
+
+.main-content .box .box-title-description .box-desc {
+    padding: 1em 0;
+    font-size: 1em;
+    width: 100%;
+    max-width: 550px;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+}
+
+
+
+.main-content .box .button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content .box .button-container .button {
+    height: 4em;
+    background-color: #07ded2;
+    border: none;
+    color: white;
+    text-align: left;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-top: 1.5em;
+    transition: .4s all;
+}
+
+.main-content .box .button-container .button:hover {
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+}
+
+.main-content .box .button-container #job-board {
+    background-color: #0a2437;
+}
+
+.main-content .box .button-container #job-board:hover {
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+footer p {
+    padding: 3em 1em;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+
+}
+
+footer .bigger-p {
+    display: none;
+}
+
+
+@media screen and (min-width: 760px) {
+
+    header .logo-container {
+        margin: 1em;
+    }
+
+
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-content .box {
+        width: 48.5%;
+    }
+
+    footer .mobile-p {
+        display: none;
+    }
+
+
+    footer .bigger-p {
+        display: block;
+    }
+
+}
