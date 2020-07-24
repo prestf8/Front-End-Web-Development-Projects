@@ -1,0 +1,53 @@
+main {
+  width: 100vw;
+  height: 270vh;
+}
+
+main .page-content {
+  position: absolute;
+  top: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 100%;
+  text-align: left;
+}
+
+main .page-content .title {
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+  padding: 2em;
+  width: 100%;
+}
+
+main .page-content .title h1 {
+  margin-bottom: 0.5em;
+}
+
+main .page-content .title #beard {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+main .page-content .title #date {
+  margin-bottom: 2em;
+}
+
+main .page-content .title img {
+  width: 100%;
+  height: 50%;
+  
+}
+
+main .page-content .content {
+  font-family: 'Opens Sans',sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+main .page-content .content #last {
+  margin-bottom: 2em;
+}
+

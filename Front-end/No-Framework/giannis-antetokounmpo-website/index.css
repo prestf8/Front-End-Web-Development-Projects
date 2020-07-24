@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?fa mily=Spartan:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:600&display=swap');
+
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+main  {
+  height: 185vh;
+  width: 100vw;
+}
+
+main .background-image {
+  height: 55%;
+  width: 100%;
+  background-image: url('img/giannis-background.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center top;
+  border: 5px solid #00471b;
+}
+
+main .background-image .background-image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+main .background-image .black-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(0,0,0,0.4), transparent, rgb(0,0,0,0.4)),
+                    linear-gradient(to bottom, rgb(0,0,0,0.4), transparent, rgb(0,0,0,0.4));
+  top:0;
+  left:0;
+}
+
+
+main .line {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, white, #333, white);
+    width: 100%;
+}
+
+main .facts {
+  height: 45%;
+}
+
+main .facts .profile {
+  display: flex;
+  height: 40%;
+  width: 100vw;
+}
+
+main .facts .profile .giannis-portrait {
+  width: 330px;
+  height: auto;
+  position: relative;
+}
+
+main .facts .profile .giannis-portrait #giannis {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+main .facts .profile .giannis-portrait .portrait-background-1{
+  background-image: url("img/maybe.png");
+  background-position: top right;
+  background-repeat: none;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  top:0;
+  left:0;
+  opacity: 0.40;
+  z-index: 1;
+}
+
+main .facts .profile .giannis-portrait .portrait-background-2{
+  background-image: url("img/refined-bucks.png");
+  background-repeat: none;
+  background-position: center right;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left: 0;
+  opacity: 0.40;
+  z-index: 2;
+}
+
+main .facts .profile .first-last-name {
+  margin-left: 2em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 2;
+}
+
+main .facts .profile .first-last-name #first-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  
+}
+
+main .facts .profile .first-last-name #last-name {
+  font-family: 'Oswald', Sans-Serif;
+  font-size: 4em;
+  margin-top: -0.3em;
+}
+
+main .facts .profile .first-last-name #nickname {
+  margin-top: 1em;
+  color: #00471b;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Spartans', sans-serif;
+}
+
+main .facts .profile .stats-stats-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+main .facts .profile .stats-container {
+  border: 1px solid black;
+  text-transform: uppercase;
+  height: 180px;
+  width: 400px;
+  border-radius: 1em;
+}
+
+main .facts .profile .stats-container .label-container {
+  background-color: #003813;
+  width: 400px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  font-family: 'Spartans', sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .facts .profile .stats-container .stats {
+  width: 100%;
+  text-align: center;
+  height: 80%;
+  font-family: 'Montserrat',sans-serif;
+
+}
+
+main .facts .profile .stats-container .stats th {
+  color: #898a8c;
+  font-size: 1em;
+  padding-top: 0.5em;
+}
+
+main .facts .profile .stats-container .stats td {
+  color: black;
+  font-family: 'Oswald', Sans-Serif;
+  font-size: 2.5em;
+}
+
+main .facts {
+  text-transform: uppercase;
+}
+
+
+main .facts .bottom-facts-container {
+  height: 60%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+main .facts .bottom-facts-container .background-bottom-giannis {
+  background-image: url("img/background-bottom-giannis.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0.9;
+  width: 35%;
+  height: 100%;
+  z-index: 1;
+}
+
+main .facts .bottom-facts-container .facts-diagonal-container {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+main .facts .bottom-facts-container .facts-diagonal-container .first-column-fact {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding-top: 2em;
+}
+
+main .facts .bottom-facts-container .facts-diagonal-container .first-column-fact p {
+  width: 25%;
+}
+
+main .facts .bottom-facts-container .facts-diagonal-container .second-column-fact {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+  padding-top: 2em;
+}
+
+main .facts .bottom-facts-container .facts-diagonal-container .second-column-fact p {
+  width: 25%;
+}
+
+
+main .facts .bottom-facts-container .facts-diagonal-container .header {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+
+main .facts .bottom-facts-container .facts-diagonal-container .number {
+  margin-top: 0.4em;
+  display: flex;
+  width: 100%;
+  height: 20%;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+@media only screen and (max-width: 400px) {
+}
+
+@media only screen and (min-width: 401px) and (max-width: 1200px) {
+  
+  main {
+    height: 250vh;
+  }
+  
+  .facts {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .facts .profile {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50%;
+    /*flex: wrap;*/
+  }
+  
+  .bottom-facts-container {
+    flex-direction: column;
+  }
+
+}
