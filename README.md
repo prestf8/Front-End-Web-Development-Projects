@@ -1,1 +1,8 @@
-# Web-Development-Projects
+# Front-End Web Development Projects
+
+HTML - ✔️ 
+CSS - ✔️ 
+JAVASCRIPT - ❌
+FRAMEWORK - ❌
+
+Continuing...
