@@ -1,5 +1,7 @@
 # Front-End Web Development Projects
 
+<hr>
+
 HTML - ✔️ 
 
 CSS - ✔️ 
@@ -7,5 +9,7 @@ CSS - ✔️
 JAVASCRIPT - ❌
 
 FRAMEWORK - ❌
+
+<hr>
 
 Continuing...
