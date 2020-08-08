@@ -1,15 +1,5 @@
-# Front-End Web Development Projects
+# Front-End Web Development Micro Projects
 
 <hr>
 
-HTML - ✔️ 
-
-CSS - ✔️ 
-
-JAVASCRIPT - ❌
-
-FRAMEWORK - ❌
-
-<hr>
-
-Continuing...
+For learning purposes only.
