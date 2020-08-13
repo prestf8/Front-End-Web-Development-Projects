@@ -1,0 +1,151 @@
+* {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+
+html {
+	height: 100vh;
+	width: 100vw;
+}
+
+body {
+	height: inherit;
+	width: inherit;
+	background: linear-gradient(#ffbba8, #9198e5);	font-family: 'Recursive', sans-serif;
+}
+
+body main {
+	margin:0 auto;
+	height: inherit;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0,0,0,0.4);
+	border-right: 5px solid white;
+	border-left: 5px solid white;
+}
+
+body main > section {
+	width: 90%;
+	max-width: 600px;
+	text-align: center;
+	font-size: 4rem;
+}
+
+body section .tag {
+	font-size: 4rem;
+	text-align: center;
+	padding: 2rem;
+	font-weight: bold;
+	color: white;
+}
+
+body section .container {
+	display: flex;
+	flex-direction: column;
+}
+
+body section .container .letter-input {
+	height: 40px;
+}
+
+body .section .container button {
+	height: 35px;
+}
+
+body .player1-section, 
+body .player2-section {
+	flex: 1;
+}
+
+body .middle-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background: rgba(0,20,150,0.2);
+	height: inherit;
+	order: 3;
+	flex: 2;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	border: 4px solid white;
+	border-radius: 7px;
+}
+
+
+
+body .middle-section .results {
+	color: white;
+	font-size: 3rem;
+}
+
+body .middle-section .start-button {
+	width: 150px;
+	height: 60px;
+	border-radius: 5px;
+	background-color: #31bdd6;
+	border: 2px solid white;
+	transition: background-color 0.3s ease;
+	letter-spacing: 2px;
+	color: white;
+}
+
+body .middle-section .start-button:hover {
+	cursor: pointer;
+	background-color: #30a5ba;
+}
+
+.restart-tag {
+	color: aquamarine;
+	display: none;
+}
+
+.restart-tag:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+@media only screen and (min-width: 480px) {
+
+	body main > section {
+		font-size: 5rem;
+	}
+
+
+	body .section .container button {
+		height: 60px;
+	}
+	
+}
+
+
+@media only screen and (min-width: 768px) {
+	body main {
+		display: flex;
+		justify-content: center;
+		/* flex-direction: row; */
+	}
+
+	body main > section {
+		padding: 1rem;
+	}
+
+	body .middle-section .start-button {
+		width: 250px;
+		height: 85px;
+	}
+	
+	body .middle-section .results {
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
+	body .middle-section .results {
+		font-size: 3.7rem;
+	}
+}
