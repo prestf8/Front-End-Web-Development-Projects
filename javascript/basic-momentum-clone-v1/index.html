@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>New Tab</title>
+		<script src="https://kit.fontawesome.com/3c0d58b00f.js" crossorigin="anonymous"></script>
+		<link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+		<link href="stylesheets/fonts.css" rel="stylesheet" type="text/css" />
+		<link href="stylesheets/font-size.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+		<section class="left"></section>
+		<main class="main">
+			<div class="main__middle">
+				<time class="main__time"></time>
+				<h1 class="main__greetings-name-container">
+					<span class="main__greetings">Good Morning,</span>
+					<p class="main__name" contenteditable>Insert Name</p>
+				</h1>
+			</div>
+			<div class="main__focus-container">
+				<p class="main__focus-question">What is your main focus today?</p>
+				<p type="text" class="main__focus" contenteditable="true">Insert Focus</p>
+			</div>
+			<div class="main__quote-container">
+				<p class="main__quote"></p>
+			</div>
+		</main>
+
+		<section class="right">
+			<div class="right__arrow-container">
+				<button class="right_arrow right_arrow--forward"><i class="fas fa-angle-left"></i></button>
+				<button class="right_arrow right_arrow--backward"><i class="fas fa-angle-right"></i></button>
+			</div>
+			<div class="right__todo-entire">
+				<div class="right__checklist">
+					<div class="right__checklist-header">
+						<h6 class="right__checklist-title">0 THINGS TO DO</h6>
+						<button class="right__checklist-exit"><i class="fas fa-times"></i></button>
+					</div>
+					<div class="right__checklist-content"></div>
+					<input class="right__checklist-new-todo" placeholder="New Todo" />
+				</div>
+				<button class="right__todo-button">Todo</button>
+			</div>	
+		</section>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
