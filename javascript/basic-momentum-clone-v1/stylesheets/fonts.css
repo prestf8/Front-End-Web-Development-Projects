@@ -1,0 +1,51 @@
+/* Red Rose */
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+/* Pangolin */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+/* Baloo Tamma 2 */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+
+/* Black Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+/* Bold Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+.main__time {
+	font-family: 'Roboto', sans-serif;
+}
+
+.main__greetings-name-container {
+	font-family: 'Lato', sans-serif;
+}
+
+.main__name {
+	font-family: inherit;
+}
+
+.main__focus-container {
+	font-family: 'Baloo Tamma 2', sans-serif;
+}
+
+.main__focus {
+	font-family: inherit;
+}
+
+.main__quote-container {
+	font-family: 'Red Rose', sans-serif;
+}
+
+.right__checklist-title {
+	font-family: 'Baloo Tamma 2', sans-serif;
+}
+
+.right__checklist-new-todo {
+	font-family: 'Lato', sans-serif;
+}
