@@ -1,5 +1,7 @@
 # Basic Momentum Clone (Version 1)
 
+Created August 21, 2020
+
 - Time is displayed
 - Probably will be updating eventually
 - "LocalStorage" stores your name and focus values
