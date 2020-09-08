@@ -1,0 +1,198 @@
+/* Kumbh Sans */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+
+:root {
+	--blackWhite: black;
+	--whiteBlack: white;
+	--gettingStartedButtonColor: #2f6fd6;
+	--grayWhite: rgba(0,0,0,0.9);
+}
+
+body {
+	/* background: #2f6fd6; */
+	background-image: linear-gradient(188deg, #2f6fd6 65%,#fff calc(65% + 2px));
+
+
+	height: 100vh;
+
+}
+
+.header {
+	background: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.header__first {
+	display: flex;
+}
+
+.header__logo {
+	width: 150px;
+}
+
+.header__logo:hover {
+	cursor: pointer;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.header__link {
+	list-style: none;
+}
+
+.header__link a {
+	padding: 1rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: white;
+	border-radius: 10px;
+}
+
+.header__link a:hover {
+	background: rgba(255,255,255,0.2);
+}
+
+.header__search {
+	border-radius: 1rem;
+	border: none;
+	color: gray;
+	height: 30px;
+	width: 175px;
+	padding: 1rem;
+	outline: none;
+	margin-right: 1rem;
+	transition: width .15s ease-in;
+}
+
+.extended {
+	width: 230px;
+}
+
+.header__dark-mode {
+	padding: 0.5rem;
+	border-radius: 5px;
+	outline: none;
+	width: 90px;
+	font-weight: bold;
+	background-color: var(--blackWhite);
+	color: var(--whiteBlack);
+	border: 1px solid var(--blackWhite);
+	transition: all .2s ease-in;
+	opacity: 0.9;
+}
+
+.header__dark-mode:hover {
+	cursor: pointer;
+	transform: scale(1.03);
+	opacity: 1;
+
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main__content {
+	display: flex;
+	align-items: center;
+	max-width: 800px;
+	margin-right: 7rem;
+	opacity: 0;
+	transform: translateY(-25%);
+	transition: all .5s ease-in;
+
+}
+
+.main__image {
+	height: 400px;
+	outline: none;
+}
+
+.main__h4 {
+	color: white;
+	margin-bottom: 2rem;
+	font-family: 'Kumbh Sans', sans-serif;
+	line-height: 4rem;
+}
+
+.main__get-started {
+	text-transform: uppercase;
+	padding: 0.6rem;
+	border-radius: 2rem;
+	width: 160px;
+	border: none;
+	color: var(--gettingStartedButtonColor);
+	outline: none;
+	transition: transform .2s ease-in;
+}
+
+.main__get-started:hover {
+	cursor: pointer;
+	color: gray;
+	background-color: rgba(255,255,255,0.8);
+	transform: scale(1.03);
+}
+
+body.dark-theme {
+	background-image: linear-gradient(188deg, black 65%,rgba(0,0,0,0.9) calc(65% + 2px));
+}
+
+.main__popup {
+	width: 400px;
+	height: 80px;
+	font-family: 'Kumbh Sans', sans-serif;
+	color: var(--whiteBlack);
+	background-color: var(--grayWhite);
+	text-align: center;
+	position: relative;
+	transition: display 1s ease-in;
+	padding: 1rem;
+	transform: translateX(-80%);
+	visibility: hidden;
+	opacity: 0;
+}
+
+.main__popup.activated {
+	display: flex;
+	opacity: 1;
+	visibility: visible;
+}
+
+.main__popup > p {
+	margin:auto;
+}
+
+.main__x {
+	position: absolute;
+	top:0;
+	right:0;
+	background: transparent;
+	border: none;
+	padding: 4px;
+	outline: none;
+	color: var(--whiteBlack);
+}
+
+.main__x:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
