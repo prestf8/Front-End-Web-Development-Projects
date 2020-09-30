@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Todo List</title>
+    <link href="stylesheets/font-size.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://kit.fontawesome.com/3c0d58b00f.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__logo">My Todo List</p>
+      <p class="header__project-version">v1</p>
+    </header>
+    <main class="main">
+      <div class="main__content">
+        <div class="main__time-container">
+          <time class="main__time"></time>
+        </div>
+        <section class="main__input-section">
+          <form class="main__input">
+            <input class="main__input-title" type="text" placeholder="Title" maxlength="25"/>
+            <input type="text" class="main__input-description" placeholder="Description" maxlength="80"/>
+            <button type="submit" class="main__input-submit">Submit</button>
+          </form>
+        </section>
+        <section class="main__todo-list-section">
+          <div class="main__todo-list-clear-all-section">
+            <div class="main__todo-list-clear-all-container">
+              <span class="main__todo-list-clear-all">Clear All</span>
+            </div>
+          </div>
+          <ul class="main__todo-list">
+          </ul>
+        </section>
+      </div>
+    </main>
+    <script defer src="apps/app.js"></script>
+    <script defer src="https://kit.fontawesome.com/3c0d58b00f.js" crossorigin="anonymous"></script>
+  </body>
+</html>
