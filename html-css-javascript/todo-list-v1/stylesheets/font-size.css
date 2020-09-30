@@ -1,0 +1,94 @@
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Kufam */
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main__time {
+  font-size: 2.3rem;
+}
+
+.main__todo-li-title {
+  font-size: 1.2rem;
+}
+
+.main__todo-li-description {
+  font-size: 1rem;
+}
+
+.main__todo-list-clear-all-container {
+  font-size: 1.2rem;
+}
+
+.main__todo-li-delete {
+  font-size: 1.5rem;
+}
+
+.main__todo-li-edit {
+  font-size: 1.1rem;
+}
+
+
+@media screen and (min-width: 600px) {
+  .header {
+    font-size: 1rem;
+  }
+
+  .main__time {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    font-size: 1.2rem;
+  }
+
+  .main__time {
+    font-size: 4rem;
+  }
+
+  .main__input-title, .main__input-description, .main__input-submit {
+    font-size: 1.2rem;
+  }
+
+  .main__todo-list-clear-all-container {
+    font-size: 1.4rem;
+  }
+
+  .main__todo-li-title {
+    font-size:1.5rem;
+  }
+
+  .main__todo-li-description {
+     font-size: 1.2rem;
+  }
+
+  .main__todo-li-delete {
+    font-size: 1.7rem;
+  }
+
+  .main__todo-li-edit {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .main__time {
+    font-size: 4.4rem;
+  }
+
+  .main__todo-list-clear-all-container {
+    font-size: 1.6rem;
+  }
+
+}

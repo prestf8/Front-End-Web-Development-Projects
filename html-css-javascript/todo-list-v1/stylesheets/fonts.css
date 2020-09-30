@@ -1,0 +1,28 @@
+/* Epilogue */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+/* Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Open+Sans&display=swap');
+
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.header, .main__todo-li-description {
+  font-family: 'Lato', sans-serif;
+}
+
+.main__time, .main__input-submit {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main__todo-list-clear-all-container {
+  font-family: 'Epilogue', sans-serif;
+}
+
+.main__todo-li-title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main__todo-li-edit {
+  font-family: 'Epilogue', sans-serif;
+}
