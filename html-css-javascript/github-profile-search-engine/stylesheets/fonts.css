@@ -1,0 +1,16 @@
+/* Kumbh Sans */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+/* Kufam */
+
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+
+.header, .header__switchLighting, .main__search, .main__search-submit {
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main__title, .main__profile-section, .main__displayError {
+	font-family: 'Kufam', sans-serif;
+}
+

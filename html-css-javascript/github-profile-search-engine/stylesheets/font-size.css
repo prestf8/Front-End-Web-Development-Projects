@@ -1,0 +1,93 @@
+
+.header {
+	font-size: 2rem;
+}
+
+.main__title {
+	font-size: 3rem;
+}
+
+.main__search {
+	font-size: 1.5rem;
+}
+
+.main__search-submit {
+	font-size: 1.5rem;
+}
+
+.profile__username {
+	font-size: 2.5rem;
+}
+
+.profile__name, .profile__location, .profile__company, .profile__repositories, .profile__following, .profile__followers {
+	font-size: 1.3rem;
+}
+
+.main__displayError {
+	font-size: 1.7rem;
+}
+
+.bold {
+	font-size: 1.4rem;
+}
+
+
+
+@media screen and (min-width: 700px) {
+	.header {
+		font-size: 2.5rem;
+	}
+
+	.main__search {
+		font-size: 2rem;
+	}
+
+
+	.main__search-submit {
+		font-size: 2rem;
+	}
+
+
+	.profile__username {
+		font-size: 2.8rem;
+	}
+
+	.profile__name, .profile__location, .profile__company, .profile__repositories, .profile__following, .profile__followers {
+		font-size: 1.6rem;
+	}
+
+	.main__displayError {
+		font-size: 2.5rem;
+	}
+
+	.bold {
+		font-size: 1.8rem;
+	}
+
+}
+
+@media screen and (min-width: 1100px) {
+	.main__title {
+		font-size: 4.3rem;
+	}
+
+	.main__profile-section {
+		font-size: 3rem;
+	}
+
+	.profile__username {
+		font-size: 3rem;
+	}
+
+	.profile__name, .profile__location, .profile__company, .profile__repositories, .profile__following, .profile__followers {
+		font-size: 1.8rem;
+	}
+
+	.main__displayError {
+		font-size: 3rem;
+	}
+
+	.bold {
+		font-size: 2rem;
+	}
+}
