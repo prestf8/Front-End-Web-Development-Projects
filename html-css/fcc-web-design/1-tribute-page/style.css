@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem 5px;
+}
+
+#main {
+    background-color: #eeeeee;
+    font-family: "Noto Sans JP", sans-serif;
+    padding: 1rem 1rem;
+}
+
+#header {
+    text-align: center;
+    padding: 1.6rem;
+}
+
+#title {
+    font-size: 2.5rem;
+}
+
+#img-div {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 1rem;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    font-size: 0.9rem;
+    margin: 1rem;
+}
+
+#tribute-info {
+    padding: 1rem;
+}
+
+#tribute-info-1 {
+    width: 100%;
+    max-width: 500px; 
+    margin: 1rem auto;
+    color: #1a1a1a;
+}
+
+#tribute-info-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+li {
+    margin-top: 1rem;
+}
+
+blockquote {
+    margin-top: 3rem;
+    font-style: italic;
+}
+
+#quote-author {
+    margin-top: 1rem;
+}
+
+#extra-info {
+    margin: 2rem;
+    text-align: center;
+}
