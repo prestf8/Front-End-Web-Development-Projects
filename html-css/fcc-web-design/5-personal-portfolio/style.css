@@ -1,0 +1,85 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-red);
+  width: 100%;
+  border-bottom: 3px solid black;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-li {
+  list-style: none;
+}
+
+.navbar-li:hover {
+  background-color: var(--main-blue);
+}
+
+.navbar-a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: var(--main-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-section-content {
+  text-align: center;
+}
+
+#welcome-section-title {
+  color: white;
+  font-size: 3.5rem;
+}
+
+#welcome-section-role {
+  color: var(--main-red);
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 460px) {
+  #header {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .navbar-a {
+    font-size: 1.4rem;
+    padding: 1.15rem;
+  }
+}
